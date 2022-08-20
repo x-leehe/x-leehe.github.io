@@ -103,4 +103,4 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: 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@github.com/x-leehe/x-leehe.github.io.git
+  repo: https://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@github.com/x-leehe/x-leehe.github.io.git
