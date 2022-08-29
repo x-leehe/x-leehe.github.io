@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords:
 author: X-LeeHe
-language: zh
+language: zh-CN
 timezone: ''
 
 # URL
@@ -103,4 +103,4 @@ theme: yun
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://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@github.com/x-leehe/x-leehe.github.io.git
+  repo: https://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@github.com/x-leehe/x-leehe.github.io.git

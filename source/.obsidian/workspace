@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "81b6a55c46bc874e",
+    "type": "split",
+    "children": [
+      {
+        "id": "10b821e14c0c1a4b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/non-nsfw.md",
+            "mode": "source",
+            "source": false
+          }
+        },
+        "group": "4986139eacfbc63b"
+      },
+      {
+        "id": "f284562cbbaeb5f1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/non-nsfw.md",
+            "mode": "preview",
+            "source": false
+          }
+        },
+        "group": "4986139eacfbc63b"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0df0a4af9e2645bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "0857823ab35b3ac2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f9db196c4bfd249",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4449b943e105e030",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a3d26ddcdeed0287",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d69445e384bc0b7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca6c8b98c29b9a0c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cda6bde700ff638",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/non-nsfw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2874f5ace10da0f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/non-nsfw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "11f3f467eabde48f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ae5812cddbc6807c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/non-nsfw.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "10b821e14c0c1a4b",
+  "lastOpenFiles": [
+    "_posts/nsfw.md",
+    "_posts/non-nsfw.md",
+    "_posts/Summary-of-The-Cricket-in-Times-Square-Chapter-1.md",
+    "404.md",
+    "no-nsfw.md"
+  ]
+}
