@@ -16,7 +16,7 @@ document.addEventListener("pjax:success", initScrollReveal);
 <meta property="og:description" content="X-LeeHe的失败的机器人使用指北！请您知晓：&lt;&gt;中的内容是必填项目，[]中的内容是选填项目。所有项目都「无需」加括号！xx触发：指的是命令触发形式，如：&#x2F;perm触发中的add实际使用例子为：&#x2F;perm add xxx xxx:xxx 此guide为 v0.0.2版本。特别鸣谢：mirai-console-loader项目mirai-forummirai-plu">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-11T05:20:00.000Z">
-<meta property="article:modified_time" content="2022-12-11T06:27:28.893Z">
+<meta property="article:modified_time" content="2022-12-11T06:33:23.605Z">
 <meta property="article:author" content="X-LeeHe">
 <meta property="article:tag" content="QQbot">
 <meta name="twitter:card" content="summary"><script>(function() {
@@ -195,95 +195,7 @@ IconifyProviders = {
 <p>超级管理员 &gt; 管理员 &gt; 群管理员 &gt; 坎公管理员</p>
 </blockquote>
 <p>下表展示最新版HRobot插件功能，你可以在 <a href="version/HISTORY_VERSION.md">历史版本关键字及命令</a> 中找到历史版本对应信息。</p>
-<p><strong>注意，所有命令都必须以 # 开头，如果不执行 保存配置 文件，那么所有命令配置将在机器人关机时丢失。</strong></p>
-<table>
-<thead>
-<tr>
-<th>命令</th>
-<th>示例</th>
-<th>功能</th>
-<th>权限要求</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>#保存配置</td>
-<td>#保存配置</td>
-<td>将由命令造成的配置更改写入配置文件以持久化，注意这会使得配置文件顺序变乱</td>
-<td>至少是管理员权限</td>
-</tr>
-<tr>
-<td>#重载配置</td>
-<td>#重载配置</td>
-<td>重新载入配置文件</td>
-<td>至少是管理员权限</td>
-</tr>
-<tr>
-<td>#查看配置状态</td>
-<td>#查看配置状态</td>
-<td>查看是否有命令执行成功</td>
-<td>至少是管理员权限</td>
-</tr>
-<tr>
-<td>#查看配置日志</td>
-<td>#查看配置日志</td>
-<td>若有命令执行成功，查看命令执行日志</td>
-<td>至少是管理员权限</td>
-</tr>
-<tr>
-<td>#授予管理员权限</td>
-<td>#授予管理员权限 123456</td>
-<td>权限命令，授予 qq 为 123456 用户管理员权限</td>
-<td>必须要求自身权限大于被操作对象的权限以及要授予的权限</td>
-</tr>
-<tr>
-<td>#授予坎公管理员权限</td>
-<td>#授予坎公管理员权限 123456</td>
-<td>权限命令，授予 qq 为 123456 用户授予坎公管理员权限</td>
-<td>必须要求自身权限大于被操作对象的权限以及要授予的权限</td>
-</tr>
-<tr>
-<td>#授予群管理员权限</td>
-<td>#授予群管理员权限 123456</td>
-<td>权限命令，授予 qq 为 123456 用户群管理员权限</td>
-<td>必须要求自身权限大于被操作对象的权限以及要授予的权限</td>
-</tr>
-<tr>
-<td>#移除管理员权限</td>
-<td>#移除管理员权限 123456</td>
-<td>权限命令，移除 qq 为 123456 用户管理员权限</td>
-<td>必须要求自身权限大于被操作对象的权限</td>
-</tr>
-<tr>
-<td>#移除坎公管理员权限</td>
-<td>#移除坎公管理员权限 123456</td>
-<td>权限命令，移除 qq 为 123456 用户的坎公管理员权限</td>
-<td>必须要求自身权限大于被操作对象的权限</td>
-</tr>
-<tr>
-<td>#移除群管理员权限</td>
-<td>#移除群管理员权限 123456</td>
-<td>权限命令，移除 qq 为 123456 用户群管理员权限</td>
-<td>必须要求自身权限大于被操作对象的权限</td>
-</tr>
-<tr>
-<td>#查看权限</td>
-<td>#查看权限</td>
-<td>权限命令，查看自身的权限，也可以通过“#查看权限 qq” 来查看他人的权限</td>
-<td>无要求</td>
-</tr>
-<tr>
-<td>(1)#设置关键字回复</td>
-<td>#设置关键字回复 {自定义关键字} 自定义回复</td>
-<td>设定<strong>全局生效</strong>的自定义关键字及回复，关键字及回复都可以是图片或表情，你必须使用 {} 将关键字包裹起来，除关键字和命令之外的其他任何消息都将会被视为回复</td>
-<td>至少是管理员权限</td>
-</tr>
-<tr>
-<td>(2)#设置关键字回复</td>
-<td>#设置关键字回复</td>
-<td></td>
-<td></td>
-</tr>
-</tbody></table>
+<p><strong>注意，所有命令都必须以 # 开头，如果不执行 保存配置 文件，那么所有命令配置将在机器人关机时丢失。</strong><br>见<a target="_blank" rel="noopener" href="https://github.com/happysnaker/mirai-plugin-HRobot">Hrobot的README</a></p>
 </div></section><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>X-LeeHe</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="http://x-leehe.github.io/2022/12/11/X-LeeHe%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97%EF%BC%81/" title="X-LeeHe的机器人使用指北！">http://x-leehe.github.io/2022/12/11/X-LeeHe%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97%EF%BC%81/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul><script>document.addEventListener('copy', function (event) {
   const clipboardData = event.clipboardData || window.clipboardData;
   if (!clipboardData) { return; }
